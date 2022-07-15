@@ -71,7 +71,6 @@ function UserInfo() {
   window.onscroll = () => {
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
       if (!noData) {
-        console.log(state.page);
         loadUserInfo(state.page, true);
       }
     }
